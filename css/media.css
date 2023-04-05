@@ -1,0 +1,64 @@
+@media (min-width: 390px) {
+    .container-form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    th,
+    td {
+        font-size: 13px;
+    }
+
+    .pesquisa {
+        width: 97.5%;
+        margin: 0 auto 0 auto;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .campo-pesquisa,
+    .tabela {
+        width: 100%;
+        text-align: center;
+    }
+
+    .input-pesquisa {
+        width: 95%;
+    }
+
+    .input-nota {
+        width: 25%;
+    }
+
+    .input-nome {
+        width: 80%;
+    }
+}
+
+@media (min-width: 590px) {
+    .input-pesquisa {
+        width: 55%;
+    }
+}
+
+@media (min-width: 1020px) {
+    .input-nota {
+        width: 10%;
+    }
+
+    .input-nome {
+        width: 85%;
+    }
+
+    th,
+    td {
+        font-size: 15px;
+    }
+} ;

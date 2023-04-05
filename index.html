@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <main class="container">
+            <h1 class="titulo">Média Alunos</h1>
+
+            <div class="pesquisa">
+                <div class="campo-pesquisa">
+                    <label for="input-busca" class="label-pesquisa">Pesquise por aluno:</label>
+                    <input type="text" class="input-pesquisa" id="input-busca" name="pesquisa" placeholder="Digite o nome do aluno" />
+                </div>
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Nota 1º Trimestre</th>
+                            <th>Nota 2º Trimestre</th>
+                            <th>Nota 3º Trimestre</th>
+                            <th>Nota 4º Trimestre</th>
+                            <th class="th-resultado">Resultado</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="corpo-tabela"></tbody>
+                </table>
+            </div>
+
+            <div class="container-form">
+                <div class="mensagem-erros">
+                    <ul class="mostra-erros"></ul>
+                </div>
+                <form class="form">
+                    <h2>Informe o nome e notas do Aluno</h2>
+                    <div class="inputs">
+                        <label for="nome" class="label-form">Nome: </label>
+                        <input type="text" id="nome" name="nome" class="input-nota input-nome" placeholder="Digite o seu nome" />
+                    </div>
+
+                    <div class="inputs">
+                        <label for="nota1" class="label-form">Nota 1: </label>
+                        <input type="text" id="nota1" name="nota1" class="input-nota" placeholder="Digite a nota" />
+                    </div>
+
+                    <div class="inputs">
+                        <label for="nota2" class="label-form">Nota 2: </label>
+                        <input type="text" id="nota2" name="nota2" class="input-nota" placeholder="Digite a nota" />
+                    </div>
+
+                    <div class="inputs">
+                        <label for="nota3" class="label-form">Nota 3: </label>
+                        <input type="text" id="nota3" name="nota3" class="input-nota" placeholder="Digite a nota" />
+                    </div>
+
+                    <div class="inputs">
+                        <label for="nota4" class="label-form">Nota 4: </label>
+                        <input type="text" id="nota4" name="nota4" class="input-nota" placeholder="Digite a nota" />
+                    </div>
+
+                    <button class="adicionar">Adiciona Aluno</button>
+                </form>
+            </div>
+        </main>
+
+        <script src="/js/calc.js"></script>
+        <script src="/js/adic.js"></script>
+        <script src="/js/delete.js"></script>
+        <script src="/js/filtrar.js"></script>
+    </body>
+</html>

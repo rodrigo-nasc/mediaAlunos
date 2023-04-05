@@ -1,0 +1,53 @@
+.mostra-erros {
+    color: red;
+    font-family: var(--fonte-tabela);
+    margin-top: 0%;
+}
+
+.form {
+    border: 1px solid black;
+    padding: 10px;
+    background: var(--cor-fundo-formulario-tabela);
+}
+
+h2 {
+    font-family: var(--fonte-titulos);
+    margin-top: 0%;
+}
+
+.inputs {
+    margin: 0.5rem 0;
+}
+
+.label-form {
+    font-size: 15px;
+    font-family: var(--fonte-titulos);
+}
+
+.input-nota {
+    padding: 6px;
+    border-radius: 3px;
+    outline-color: blue;
+    border: 0.1px solid black;
+    font-weight: bold;
+}
+
+.input-nota::placeholder {
+    font-weight: bold;
+    font-size: var(--fonte-tabela);
+    color: gray;
+}
+
+.input-nome {
+    width: 91.5%;
+}
+
+.adicionar {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: var(--fonte-titulos);
+}

@@ -1,0 +1,81 @@
+.titulo {
+    font-family: var(--fonte-titulos);
+}
+
+.th-resultado {
+    width: 250px;
+}
+
+.campo-pesquisa {
+    margin-bottom: 2rem;
+}
+
+.input-pesquisa {
+    padding: 8px;
+    border-radius: 5px;
+    outline-color: blue;
+    border: 0.1px solid black;
+    background-color: #f5f4ea;
+}
+
+.input-pesquisa::placeholder {
+    font-weight: bold;
+    font-size: var(--fonte-tabela);
+    color: gray;
+}
+
+.label-pesquisa {
+    font-size: 22px;
+    font-family: var(--fonte-titulos);
+}
+
+.tabela {
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: var(--fonte-tabela);
+    background: var(--cor-fundo-formulario-tabela);
+    margin-bottom: 1rem;
+}
+
+th,
+td {
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+}
+
+th {
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+.info-nome {
+    font-weight: bold;
+}
+
+.info-resultado {
+    width: 250px;
+}
+
+.reprovado {
+    background-color: red;
+    color: white;
+}
+
+.aprovado {
+    background-color: rgb(101, 210, 101);
+}
+
+.warning {
+    background-color: yellow;
+}
+
+.efeito {
+    opacity: 0%;
+    transition: all 1000ms;
+    background-color: red;
+}
